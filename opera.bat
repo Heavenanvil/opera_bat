@@ -12,7 +12,7 @@ tasklist | find /i "opera_autoupdate.exe" >NUL && (
 tasklist | find /i "opera_crashreporter.exe" >NUL && (
     taskkill /im "opera_crashreporter.exe" /f
 )
-tasklist | find /i "opera_crashreporter.exe" >NUL && (
+tasklist | find /i "browser_assistant.exe" >NUL && (
     taskkill /im "browser_assistant.exe" /f
 )
 tasklist | find /i "launcher.exe" >NUL && (
