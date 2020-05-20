@@ -10,6 +10,7 @@
 <b>opera.exe</b><br>
 <b>opera_autoupdate.exe</b><br>
 <b>opera_crashreporter.exe</b><br>
+<b>browser_assistant.exe</b><br>
 <b>launcher.exe</b><br>
 
 Затем запускает процесс "launcher.exe" по одному из следующих путей:<br>
