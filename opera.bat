@@ -1,6 +1,6 @@
 :: © Heavenanvil
 :: E-mail: heavenanvil@gmail.com
-:: version 1.2
+:: version 1.3
 
 @echo off
 tasklist | find /i "opera.exe" >NUL && (
@@ -11,6 +11,9 @@ tasklist | find /i "opera_autoupdate.exe" >NUL && (
 )
 tasklist | find /i "opera_crashreporter.exe" >NUL && (
     taskkill /im "opera_crashreporter.exe" /f
+)
+tasklist | find /i "opera_crashreporter.exe" >NUL && (
+    taskkill /im "browser_assistant.exe" /f
 )
 tasklist | find /i "launcher.exe" >NUL && (
     taskkill /im "launcher.exe" /f
